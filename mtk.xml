@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- <remove-project name="CyanogenMod/android_build" /> -->
+  <remove-project name="CyanogenMod/android_system_core" />
+
+  <project path="system/core" name="xen0n/android_system_core_mtk" groups="pdk" />
+
+  <!-- vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8: -->
+</manifest>
