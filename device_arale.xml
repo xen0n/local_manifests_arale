@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="device/meizu/arale" name="xen0n/android_device_meizu_arale" />
+  <project path="vendor/meizu/arale" name="xen0n/android_vendor_meizu_arale" />
 
   <!-- vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8: -->
 </manifest>
