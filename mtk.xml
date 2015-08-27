@@ -3,9 +3,11 @@
   <!-- <remove-project name="CyanogenMod/android_build" /> -->
   <remove-project name="CyanogenMod/android_system_core" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
+  <remove-project name="CyanogenMod/android_frameworks_base" />
 
   <project path="system/core" name="xen0n/android_system_core_mtk" groups="pdk" />
   <project path="frameworks/av" name="xen0n/android_frameworks_av_mtk" groups="pdk" />
+  <project path="frameworks/base" name="xen0n/android_frameworks_base_mtk" />
 
   <!-- vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8: -->
 </manifest>
