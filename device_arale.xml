@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="device/meizu/arale" name="xen0n/android_device_meizu_arale" />
+  <project path="device/meizu/mx4" name="xen0n/android_device_meizu_mx4" />
   <project path="vendor/meizu/arale" name="xen0n/android_vendor_meizu_arale" />
 
   <remove-project name="platform/frameworks/testing" />
