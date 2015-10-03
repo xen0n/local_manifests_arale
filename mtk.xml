@@ -2,6 +2,7 @@
 <manifest>
   <!-- <remove-project name="CyanogenMod/android_build" /> -->
   <remove-project name="CyanogenMod/android_system_core" />
+  <remove-project name="CyanogenMod/android_system_vold" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
@@ -9,6 +10,7 @@
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
 
   <project path="system/core" name="xen0n/android_system_core_mtk" groups="pdk" />
+  <project path="system/vold" name="xen0n/android_system_vold_mtk" groups="pdk" />
   <project path="frameworks/av" name="xen0n/android_frameworks_av_mtk" groups="pdk" />
   <project path="frameworks/base" name="xen0n/android_frameworks_base_mtk" />
   <project path="frameworks/opt/telephony" name="xen0n/android_frameworks_opt_telephony_mtk" groups="pdk" />
