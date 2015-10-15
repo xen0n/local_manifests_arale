@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- <remove-project name="CyanogenMod/android_build" /> -->
+
+  <remove-project name="CyanogenMod/android_build" />
   <remove-project name="CyanogenMod/android_system_core" />
   <remove-project name="CyanogenMod/android_system_netd" />
   <remove-project name="CyanogenMod/android_system_vold" />
@@ -9,6 +10,10 @@
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+
+  <project path="build" name="xen0n/android_build_mtk" groups="pdk,tradefed" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
 
   <project path="system/core" name="xen0n/android_system_core_mtk" groups="pdk" />
   <project path="system/netd" name="xen0n/android_system_netd_mtk" groups="pdk" />
