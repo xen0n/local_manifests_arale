@@ -8,6 +8,7 @@
   <remove-project name="CyanogenMod/android_external_tinycompress" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
+  <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
@@ -24,6 +25,7 @@
   <project path="external/tinycompress" name="xen0n/android_external_tinycompress_mtk" groups="pdk" />
   <project path="frameworks/av" name="xen0n/android_frameworks_av_mtk" groups="pdk" />
   <project path="frameworks/base" name="xen0n/android_frameworks_base_mtk" />
+  <project path="frameworks/native" name="xen0n/android_frameworks_native_mtk" groups="pdk" />
   <project path="frameworks/opt/telephony" name="xen0n/android_frameworks_opt_telephony_mtk" groups="pdk" />
   <project path="hardware/libhardware" name="xen0n/android_hardware_libhardware_mtk" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="xen0n/android_hardware_libhardware_legacy_mtk" groups="pdk" />
