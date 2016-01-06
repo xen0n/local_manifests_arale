@@ -11,6 +11,7 @@
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <remove-project name="CyanogenMod/android_packages_services_Telecomm" />
   <remove-project name="CyanogenMod/android_packages_services_Telephony" />
 
   <project path="build" name="xen0n/android_build_mtk" groups="pdk,tradefed" >
@@ -26,6 +27,7 @@
   <project path="frameworks/opt/telephony" name="xen0n/android_frameworks_opt_telephony_mtk" groups="pdk" />
   <project path="hardware/libhardware" name="xen0n/android_hardware_libhardware_mtk" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="xen0n/android_hardware_libhardware_legacy_mtk" groups="pdk" />
+  <project path="packages/services/Telecomm" name="xen0n/android_packages_services_Telecomm_mtk" />
   <project path="packages/services/Telephony" name="xen0n/android_packages_services_Telephony_mtk" />
 
   <!-- vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8: -->
