@@ -1,27 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
   <remove-project name="CyanogenMod/android_build" />
   <remove-project name="CyanogenMod/android_system_core" />
+  <remove-project name="CyanogenMod/android_system_netd" />
   <remove-project name="CyanogenMod/android_system_vold" />
+  <remove-project name="CyanogenMod/android_external_tinycompress" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
+  <remove-project name="CyanogenMod/android_packages_services_Telecomm" />
+  <remove-project name="CyanogenMod/android_packages_services_Telephony" />
 
   <project path="build" name="xen0n/android_build_mtk" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <project path="system/core" name="xen0n/android_system_core_mtk" groups="pdk" />
+  <project path="system/netd" name="xen0n/android_system_netd_mtk" groups="pdk" />
   <project path="system/vold" name="xen0n/android_system_vold_mtk" groups="pdk" />
+  <project path="external/tinycompress" name="xen0n/android_external_tinycompress_mtk" groups="pdk" />
   <project path="frameworks/av" name="xen0n/android_frameworks_av_mtk" groups="pdk" />
   <project path="frameworks/base" name="xen0n/android_frameworks_base_mtk" />
   <project path="frameworks/native" name="xen0n/android_frameworks_native_mtk" groups="pdk" />
   <project path="frameworks/opt/telephony" name="xen0n/android_frameworks_opt_telephony_mtk" groups="pdk" />
   <project path="hardware/libhardware" name="xen0n/android_hardware_libhardware_mtk" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="xen0n/android_hardware_libhardware_legacy_mtk" groups="pdk" />
+  <project path="packages/services/Telecomm" name="xen0n/android_packages_services_Telecomm_mtk" />
+  <project path="packages/services/Telephony" name="xen0n/android_packages_services_Telephony_mtk" />
 
   <!-- vim:set ai et ts=2 sw=2 sts=2 fenc=utf-8: -->
 </manifest>
