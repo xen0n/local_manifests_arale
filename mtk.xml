@@ -5,6 +5,7 @@
   <remove-project name="CyanogenMod/android_system_core" />
   <remove-project name="CyanogenMod/android_system_netd" />
   <remove-project name="CyanogenMod/android_system_vold" />
+  <remove-project name="CyanogenMod/android_external_sepolicy" />
   <remove-project name="CyanogenMod/android_external_tinycompress" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <remove-project name="CyanogenMod/android_frameworks_base" />
@@ -22,6 +23,7 @@
   <project path="system/core" name="xen0n/android_system_core_mtk" groups="pdk" />
   <project path="system/netd" name="xen0n/android_system_netd_mtk" groups="pdk" />
   <project path="system/vold" name="xen0n/android_system_vold_mtk" groups="pdk" />
+  <project path="external/sepolicy" name="xen0n/android_external_sepolicy" groups="pdk" revision="cm-13.0-policyvers-29" />
   <project path="external/tinycompress" name="xen0n/android_external_tinycompress_mtk" groups="pdk" />
   <project path="frameworks/av" name="xen0n/android_frameworks_av_mtk" groups="pdk" />
   <project path="frameworks/base" name="xen0n/android_frameworks_base_mtk" />
