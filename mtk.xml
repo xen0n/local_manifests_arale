@@ -5,6 +5,7 @@
   <remove-project name="CyanogenMod/android_system_core" />
   <remove-project name="CyanogenMod/android_system_netd" />
   <remove-project name="CyanogenMod/android_system_vold" />
+  <remove-project name="CyanogenMod/android_external_jpeg" />
   <remove-project name="CyanogenMod/android_external_sepolicy" />
   <remove-project name="CyanogenMod/android_external_tinyalsa" />
   <remove-project name="CyanogenMod/android_external_tinycompress" />
@@ -13,6 +14,7 @@
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <remove-project name="CyanogenMod/android_frameworks_opt_net_ims" />
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+  <remove-project name="CyanogenMod/android_frameworks_rs" />
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   <remove-project name="CyanogenMod/android_packages_services_Telecomm" />
@@ -25,6 +27,7 @@
   <project path="system/core" name="xen0n/android_system_core_mtk" groups="pdk" />
   <project path="system/netd" name="xen0n/android_system_netd_mtk" groups="pdk" />
   <project path="system/vold" name="xen0n/android_system_vold_mtk" groups="pdk" />
+  <project path="external/jpeg" name="xen0n/android_external_jpeg_mtk" groups="pdk" />
   <project path="external/sepolicy" name="xen0n/android_external_sepolicy" groups="pdk" revision="cm-13.0-policyvers-29" />
   <project path="external/tinyalsa" name="xen0n/android_external_tinyalsa" groups="pdk" />
   <project path="external/tinycompress" name="xen0n/android_external_tinycompress_mtk" groups="pdk" />
@@ -33,6 +36,7 @@
   <project path="frameworks/native" name="xen0n/android_frameworks_native_mtk" groups="pdk" />
   <project path="frameworks/opt/net/ims" name="xen0n/android_frameworks_opt_net_ims_mtk" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/telephony" name="xen0n/android_frameworks_opt_telephony_mtk" groups="pdk" />
+  <project path="frameworks/rs" name="xen0n/android_frameworks_rs_mtk" groups="pdk" />
   <project path="hardware/libhardware" name="xen0n/android_hardware_libhardware_mtk" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="xen0n/android_hardware_libhardware_legacy_mtk" groups="pdk" />
   <project path="packages/services/Telecomm" name="xen0n/android_packages_services_Telecomm_mtk" />
