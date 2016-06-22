@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remove-project name="CyanogenMod/android_bionic" />
   <remove-project name="CyanogenMod/android_build" />
   <remove-project name="CyanogenMod/android_system_core" />
   <remove-project name="CyanogenMod/android_system_netd" />
@@ -20,6 +21,7 @@
   <remove-project name="CyanogenMod/android_packages_services_Telecomm" />
   <remove-project name="CyanogenMod/android_packages_services_Telephony" />
 
+  <project path="bionic" name="xen0n/android_bionic_mtk" groups="pdk" />
   <project path="build" name="xen0n/android_build_mtk" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
