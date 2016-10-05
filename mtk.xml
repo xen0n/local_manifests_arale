@@ -29,7 +29,7 @@
   </project>
 
   <project path="system/core" name="xen0n/android_system_core_mtk" groups="pdk" />
-  <project path="system/sepolicy" name="xen0n/android_external_sepolicy" groups="pdk" revision="staging/cm-14.0-policyvers-29" />
+  <project path="system/sepolicy" name="xen0n/android_external_sepolicy" groups="pdk" revision="cm-14.0-policyvers-29" />
   <project path="frameworks/av" name="xen0n/android_frameworks_av_mtk" groups="pdk" />
   <project path="frameworks/base" name="xen0n/android_frameworks_base_mtk" />
   <project path="frameworks/native" name="xen0n/android_frameworks_native_mtk" groups="pdk" />
